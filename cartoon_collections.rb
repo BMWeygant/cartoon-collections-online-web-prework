@@ -20,8 +20,7 @@ def find_the_cheese(array)
   #binding.pry
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array.each do |a| a.include?("cheese_types")
-    array.first
+    
   end
-
   end
 end
